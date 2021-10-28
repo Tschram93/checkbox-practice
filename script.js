@@ -23,6 +23,9 @@ function handleCheck(e) {
                 inBetween = !inBetween;
             }
         })
+        if (inBetween) {
+            checkbox.checked = true;
+        }
     }
 
     lastChecked = this;
